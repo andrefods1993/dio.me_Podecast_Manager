@@ -33,21 +33,17 @@ Podcast Manager é uma aplicação inspirada no estilo da Netflix, projetada par
     ```json
     [
     	{
-    		"podcastName": "flow",
-    		"episode": "CBUM - Flow #319",
-    		"videoId": "pQSuQmUfS30",
-    		"cover": "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
-    		"link": "https://www.youtube.com/watch?v=pQSuQmUfS30",
-    		"categories": ["saúde", "esporte", "bodybuilder"]
-    	},
-    	{
-    		"podcastName": "flow",
-    		"episode": "RUBENS BARRICHELLO - Flow #339",
-    		"videoId": "4KDGTdiOV4I",
-    		"cover": "https://i.ytimg.com/vi/4KDGTdiOV4I/maxresdefault.jpg",
-    		"link": "https://www.youtube.com/watch?v=4KDGTdiOV4I",
-    		"categories": ["esporte", "corrida"]
-    	}
+		"podcastName": "flow",
+		"episode": "FELCA - Flow #379",
+		"videoId": "JMClyjtNm1E",
+		"categories": ["humor"]
+	},
+	{
+		"podcastName": "flow",
+		"episode": "LEO STRONDA + RENATO CARIANI - Flow #353",
+		"videoId": "tpmg-PNUa9Q",
+		"categories": ["bodybuilder", "humor"]
+	}
     ]
     ```
 
