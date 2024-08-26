@@ -20,64 +20,62 @@ Podcast Manager é uma aplicação inspirada no estilo da Netflix, projetada par
 
 <h2 id="functionalities">📚 Funcionalidades</h2>
 
-- Listagem de Episódios por Categorias: Os episódios são organizados em categorias como saúde, bodybuilder, mentalidade, e humor, permitindo uma navegação simplificada.
-- Filtro de Episódios por Nome de Podcast: Possibilidade de busca específica por nome de podcast, tornando mais fácil encontrar os episódios desejados.
+-   Listagem de Episódios por Categorias: Os episódios são organizados em categorias como saúde, bodybuilder, mentalidade, e humor, permitindo uma navegação simplificada.
+-   Filtro de Episódios por Nome de Podcast: Possibilidade de busca específica por nome de podcast, tornando mais fácil encontrar os episódios desejados.
 
 <h2 id="demo">🚀 Demonstração</h2>
 
 ### 1. Listar Episódios de Podcasts por Categorias
 
-- **Endpoint**: `GET /list`
-- **Descrição**: Retorna uma lista de episódios de podcasts organizados por categorias.
-- **Exemplo de Resposta**:
-  ```json
-  [
-    {
-      "podcastName": "flow",
-      "episode": "CBUM - Flow #319",
-      "videoId": "pQSuQmUfS30",
-      "cover": "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=pQSuQmUfS30",
-      "categories": ["saúde", "esporte", "bodybuilder"]
-    },
-    {
-      "podcastName": "flow",
-      "episode": "RUBENS BARRICHELLO - Flow #339",
-      "videoId": "4KDGTdiOV4I",
-      "cover": "https://i.ytimg.com/vi/4KDGTdiOV4I/maxresdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=4KDGTdiOV4I",
-      "categories": ["esporte", "corrida"]
-    }
-  ]
-  ```
+-   **Endpoint**: `GET /list`
+-   **Descrição**: Retorna uma lista de episódios de podcasts organizados por categorias.
+-   **Exemplo de Resposta**:
+    ```json
+    [
+    	{
+    		"podcastName": "flow",
+    		"episode": "CBUM - Flow #319",
+    		"videoId": "pQSuQmUfS30",
+    		"cover": "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
+    		"link": "https://www.youtube.com/watch?v=pQSuQmUfS30",
+    		"categories": ["saúde", "esporte", "bodybuilder"]
+    	},
+    	{
+    		"podcastName": "flow",
+    		"episode": "RUBENS BARRICHELLO - Flow #339",
+    		"videoId": "4KDGTdiOV4I",
+    		"cover": "https://i.ytimg.com/vi/4KDGTdiOV4I/maxresdefault.jpg",
+    		"link": "https://www.youtube.com/watch?v=4KDGTdiOV4I",
+    		"categories": ["esporte", "corrida"]
+    	}
+    ]
+    ```
 
 ### 2. Filtrar Episódios por Nome de Podcast
 
-- **Endpoint**: `GET /episodes?p={nome}`
-- **Descrição**: Retorna uma lista de episódios de podcasts com base no nome do podcast fornecido.
-- **Exemplo de Requisição**: `GET /episodes?p=flow`
-
+-   **Endpoint**: `GET /episodes?p={nome}`
+-   **Descrição**: Retorna uma lista de episódios de podcasts com base no nome do podcast fornecido.
+-   **Exemplo de Requisição**: `GET /episodes?p=flow`
 
 ## Como Utilizar
 
 1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/podcast-manager.git
-   ```
+    ```bash
+    git clone https://github.com/seu-usuario/podcast-manager.git
+    ```
 2. Navegue até o diretório do projeto:
-   ```bash
-   cd podcast-manager
-   ```
+    ```bash
+    cd podcast-manager
+    ```
 3. Instale as dependências necessárias:
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 4. Inicie o servidor:
-   ```bash
-   npm run start:dev
-   ```
+    ```bash
+    npm run start:dev
+    ```
 5. Utilize os endpoints fornecidos para listar os episódios de podcasts ou filtrá-los por nome.
-
 
 <h2 id="contributor">🧑🏾‍💻 Colaboradores</h2>
 
@@ -91,5 +89,4 @@ Podcast Manager é uma aplicação inspirada no estilo da Netflix, projetada par
 
 Este projeto é licenciado sobre a licença [MIT License](https://opensource.org/licenses/MIT) - veja [LICENSE](LICENSE) para mais informações.
 
-<span style="font-size: 10px;"> [ReadME Wizard](https://github.com/andrefods1993) </span># dio.me_Podecast_Manager
-# dio.me_Podecast_Manager
+<span style="font-size: 10px;"> [ReadME Wizard](https://github.com/andrefods1993) </span>
